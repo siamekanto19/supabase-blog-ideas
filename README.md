@@ -71,5 +71,13 @@ yarn preview
 # bun
 bun run preview
 ```
+## How to test Authentication
+
+When the application is running, go to the `/login` route. Use the credentials provided below to login as an Admin.
+```
+Email    : admin@example.com
+Password : abc1234
+```
+After successfully logging in, you can access the `/post/create` route. If you try to access the `/post/create` route without logging in, you will be redirected back to `/login` route.
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
